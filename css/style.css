@@ -1,3 +1,5 @@
+/* ==== ESTILOS GENERALES ==== */
+
 body{
   font-family: 'Poppins', sans-serif;
   background-image: url(/img/hero@2x.jpg);
@@ -14,7 +16,7 @@ body{
   padding-left: 30px;
   padding-right: 30px;
 }
-/* HEADER */
+/* ==== HEADER Y MENU DE NAVEGACION ==== */
 
 header{
   display: flex;
@@ -36,7 +38,8 @@ header a{
   color: black;
 }
 
-/* HERO */
+/* ==== SECCION HERO ==== */
+/* Fondo con imagen y texto centrado */
 
 .hero h1{
   font-size: 70px;
@@ -82,7 +85,8 @@ button{
 
 }
 
-/* CATEGORIES */
+/* ==== SECCION CATEGORIES ==== */
+/* Contenedores con info resumida */
 
 .categories{
   gap: 100px;
