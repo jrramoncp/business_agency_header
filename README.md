@@ -1,6 +1,6 @@
 # Header Business Agency
 
-![Project Screenshot](./screenshot.png) <!-- Puedes reemplazar esto con una imagen real del proyecto -->
+![Project Screenshot](img/screenshot/screenshot.png) 
 
 ## Descripción
 
