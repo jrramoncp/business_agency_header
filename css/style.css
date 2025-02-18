@@ -1,33 +1,64 @@
 body{
-  margin: 0;
-  padding: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Poppins', sans-serif;
+  background-image: url(/img/hero@2x.jpg);
+  background-position: top right 0px;
+  background-size: 1000px;
+  background-repeat: no-repeat;
 }
+
+
+.page{
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+/* HEADER */
 
 header{
   display: flex;
   justify-content: space-between;
-}
-
-header nav{
-  width: 60%;
-  background-color: #7EDAD2;
-  padding: 20px;
-}
-
-header figure{
-  padding: 20px;
+  margin: 0;
 }
 
 header nav ul{
   display: flex;
-  justify-content: space-around;
   list-style-type: none;
-  align-items: center;
-  padding: 5px;
+  justify-content: space-between;
+  gap: 56px;
 }
 
-header nav ul li a{
+header a{
   text-decoration: none;
+  font-size: 20px;
   color: black;
+}
+
+/* HERO */
+
+.hero h1{
+  font-size: 70px;
+  font-family: 'Bebas Neue', sans-serif;
+  color: #424241;
+  margin-bottom: 0;
+}
+
+.hero h1 span{
+  color: #7EDAD2;
+}
+
+.hero p{
+  font-size: 24px;
+  font-family: 'Poppins', sans-serif;
+  color: #78CAC3
+}
+
+button{
+  background-color: #7EDAD2;
+  padding:20px;
+  font-size: 18px;
+  border: 0px;
+  color: white;
+  width: 180px;
 }
