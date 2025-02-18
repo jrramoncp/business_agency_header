@@ -27,11 +27,12 @@ header nav ul{
   list-style-type: none;
   justify-content: space-between;
   gap: 56px;
+  margin-right: 200px;
 }
 
 header a{
   text-decoration: none;
-  font-size: 20px;
+  font-size: 24px;
   color: black;
 }
 
