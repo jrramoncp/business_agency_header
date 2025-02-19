@@ -1,3 +1,7 @@
+/* ==== IMPORTACIÓN FUENTES ==== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@200;400&display=swap');
+
 /* ==== ESTILOS GENERALES ==== */
 
 body{
@@ -10,7 +14,7 @@ body{
 
 
 .page{
-  
+  max-width: 1400px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 30px;
@@ -29,7 +33,6 @@ header nav ul{
   list-style-type: none;
   justify-content: space-between;
   gap: 56px;
-  margin-right: 200px;
 }
 
 header a{
