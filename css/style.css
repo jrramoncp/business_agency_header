@@ -6,7 +6,7 @@
 
 body{
   font-family: 'Poppins', sans-serif;
-  background-image: url(/img/hero@2x.jpg);
+  background-image: url(../img/hero@2x.jpg);
   background-position: top right 0px;
   background-size: 1000px;
   background-repeat: no-repeat;
